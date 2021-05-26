@@ -1,0 +1,1 @@
+clang -g -Wall main.cpp Get_info.cpp -o curl_executable -lcurl

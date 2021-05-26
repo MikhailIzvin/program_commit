@@ -1,0 +1,10 @@
+# cmake_minimum_required(VERSION <specify CMake version here>)
+project(curl)
+cmake_minimum_required(VERSION 3.17)
+
+set(CMAKE_CXX_STANDARD 14)
+set(CURL_LIBRARY "-lcurl")
+find_package(CURL REQUIRED)
+add_executable (curl main.cpp Get_info.cpp Get_info.h)
+include_directories(${CURL_INCLUDE_DIR})
+target_link_libraries(curl ${CURL_LIBRARIES})

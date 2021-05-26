@@ -1,0 +1,4 @@
+Если не сработал cmake или make файл, то выполнить файл run.
+Предпологается что библиотека libcurl установлена.
+If cmake or makefile did not work, then execute run.
+It is assumed that the libcurl library is installed.
